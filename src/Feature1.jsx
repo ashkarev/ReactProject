@@ -9,7 +9,7 @@ const Feature1 = () => {
     <h1 className='text-center ' style={{color:'#61DAFB',marginTop:'60px'}}>Key Features of React</h1>
     <Container>
  <Row >
-    <Col sm={6} lg={4}>
+    <Col className='mb-2' sm={6} lg={4}>
       <Card style={{ width: '18rem' }}>
       <Card.Body>
         <Card.Title>🔄  One-Way Data Flow</Card.Title>
@@ -24,8 +24,8 @@ Data flows in one direction, <br /> <span>from parent to child components,
     </Card>
 
     </Col>
-     <Col sm={6} lg={4}>
-      <Card style={{ width: '18rem',height:'250px' }}>
+     <Col className='mb-2' sm={6} lg={4}>
+      <Card style={{ width: '18rem',minHeight:'250px' }}>
       <Card.Body>
         <Card.Title>⚙️Component-Based Architecture</Card.Title>
         <Card.Text>
@@ -39,8 +39,8 @@ Data flows in one direction, <br /> <span>from parent to child components,
     </Card>
 
     </Col>
-    <Col sm={6} lg={4}>
-      <Card style={{ width: '18rem',height:'250px' }}>
+    <Col className='mb-2' sm={6} lg={4}>
+      <Card style={{ width: '18rem',minHeight:'250px' }}>
       <Card.Body>
         <Card.Title>⚡ Virtual DOM for Lightning Performance</Card.Title>
         <Card.Text>
@@ -58,7 +58,7 @@ Data flows in one direction, <br /> <span>from parent to child components,
 
    </Row>
     <Row className='mt-5 mb-5' >
-    <Col sm={6} lg={4}>
+    <Col className='mb-2' sm={6} lg={4}>
       <Card style={{ width: '18rem' }}>
       <Card.Body>
         <Card.Title>🧠Declarative UI</Card.Title>
@@ -73,8 +73,8 @@ Data flows in one direction, <br /> <span>from parent to child components,
     </Card>
 
     </Col>
-     <Col sm={6} lg={4}>
-      <Card style={{ width: '18rem',height:'250px' }}>
+     <Col className='mb-2' sm={6} lg={4}>
+      <Card style={{ width: '18rem',minHeight:'250px' }}>
       <Card.Body>
         <Card.Title>🌐Cross-Platform Development</Card.Title>
         <Card.Text>
@@ -88,8 +88,8 @@ Data flows in one direction, <br /> <span>from parent to child components,
     </Card>
 
     </Col>
-    <Col sm={6} lg={4}>
-      <Card style={{ width: '18rem',height:'250px' }}>
+    <Col className='mb-2' sm={6} lg={4}>
+      <Card style={{ width: '18rem',minHeight:'250px' }}>
       <Card.Body>
         <Card.Title>🚀 SEO & Developer Friendly</Card.Title>
         <Card.Text>
