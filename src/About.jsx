@@ -14,7 +14,13 @@ const About = () => {
               What is React?
             </h2>
             <div style={{ minHeight: "100px", minWidth: "100px" }} className="forimg">
-              <img className="img-fluid ms-5" src={reactLogo} alt="" />
+              <img  style={{
+    width: '100%',
+    maxWidth: '250px',
+    height: 'auto',
+    display: 'block',
+    margin: '0 auto',
+  }} className="img-fluid ms-5" src={reactLogo} alt="" />
             </div>
           </div>
           <div className=" col-sm-12 col-md-6 col-lg-4">
@@ -52,7 +58,13 @@ const About = () => {
               How React Works
             </h3>
             <div style={{ minHeight: "100px", minWidth: "300px" }} className="forimg">
-              <img className="img-fluid ms-5" src={domIm} alt="" />
+              <img  style={{
+    width: '100%',
+    maxWidth: '250px',
+    height: 'auto',
+    display: 'block',
+    margin: '0 auto',
+  }} className="img-fluid ms-5" src={domIm} alt="" />
             </div>
           </div>
         </div>
@@ -72,7 +84,13 @@ const About = () => {
               Component-Based Architecture
             </h4>
             <div style={{ minHeight: "90px", minWidth: "150px" }} className="forimg">
-              <img className="img-fluid ms-5" src={comImg} alt="" />
+              <img style={{
+    width: '100%',
+    maxWidth: '250px',
+    height: 'auto',
+    display: 'block',
+    margin: '0 auto',
+  }} className="img-fluid ms-5" src={comImg} alt="" />
             </div>
           </div>
           <div className=" col-sm-12 col-md-6 col-lg-4">
