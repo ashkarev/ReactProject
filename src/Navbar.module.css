@@ -1,0 +1,10 @@
+.forList{
+  color:white;
+  transition: transform 1s ease;
+}
+.forList:hover{
+    color:#61DAFB;
+    transform: scale(1.2);
+    /* font-family: 'Times New Roman', Times, serif; */
+
+}
