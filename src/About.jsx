@@ -13,7 +13,7 @@ const About = () => {
             <h2 style={{ textDecoration: "", color: "#0B1C2C" }}>
               What is React?
             </h2>
-            <div style={{ height: "100px", width: "100px" }} className="forimg">
+            <div style={{ minHeight: "100px", minWidth: "100px" }} className="forimg">
               <img className="img-fluid ms-5" src={reactLogo} alt="" />
             </div>
           </div>
@@ -51,7 +51,7 @@ const About = () => {
               {" "}
               How React Works
             </h3>
-            <div style={{ height: "100px", width: "300px" }} className="forimg">
+            <div style={{ minHeight: "100px", minWidth: "300px" }} className="forimg">
               <img className="img-fluid ms-5" src={domIm} alt="" />
             </div>
           </div>
@@ -71,7 +71,7 @@ const About = () => {
             <h4 style={{ textDecoration: "", color: "#0B1C2C" }}>
               Component-Based Architecture
             </h4>
-            <div style={{ height: "90px", width: "150px" }} className="forimg">
+            <div style={{ minHeight: "90px", minWidth: "150px" }} className="forimg">
               <img className="img-fluid ms-5" src={comImg} alt="" />
             </div>
           </div>
