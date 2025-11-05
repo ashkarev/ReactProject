@@ -3,7 +3,7 @@ body{
  /* background: linear-gradient(to right, #f8f9fa, #e9ecef); */
   background-color: #f9fbfd;
    /* background-color: #F5F7FA; */
-   overflow-x: hidden;
+   /* overflow-x: hidden; */
 }
 /* For the main heading */
 h1 {
@@ -75,5 +75,25 @@ p {
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+span{
+  color: #00b3e6;
+}
+.cardLibrary{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+.cardLibrary:hover{
+   transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+
 }
 
