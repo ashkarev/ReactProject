@@ -5,9 +5,17 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 import Home from './Home';
 import style from './Navbar.module.css'
+import { useState } from 'react';
+
 
 const Header = () => {
- 
+  const[islight,setIslight]=useState(true)
+ const Changebg=()=>{
+  setIslight(!islight)
+  document.body.style.backgroundColor=islight?'black':'white'
+  // document.body.style.color=islight?'white':'black'
+  
+ }
   
   return (
     <>
@@ -20,6 +28,7 @@ const Header = () => {
            <Link className={style.forList} style={{textDecoration:'none'}} to={'about'}>About</Link>
             <Link className={style.forList} style={{textDecoration:'none'}} to={'feature'}>features</Link>
               <Link className={style.forList} style={{textDecoration:'none'}} to={'library'}>Library</Link>
+              <button className='btn btn-light' onClick={Changebg}>ChangeMode</button>
            
           
           </Nav>

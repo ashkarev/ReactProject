@@ -10,7 +10,7 @@ const Feature1 = () => {
     <Container>
  <Row >
     <Col className='mb-2' sm={6} lg={4}>
-      <Card style={{ minWidth: '18rem' }}>
+      <Card style={{ width: '18rem' }}>
       <Card.Body>
         <Card.Title>🔄  One-Way Data Flow</Card.Title>
         <Card.Text>
@@ -25,7 +25,7 @@ Data flows in one direction, <br /> <span>from parent to child components,
 
     </Col>
      <Col className='mb-2' sm={6} lg={4}>
-      <Card style={{ width: '18rem',minHeight:'250px' }}>
+      <Card style={{ width: '18rem',height:'250px' }}>
       <Card.Body>
         <Card.Title>⚙️Component-Based Architecture</Card.Title>
         <Card.Text>
@@ -40,7 +40,7 @@ Data flows in one direction, <br /> <span>from parent to child components,
 
     </Col>
     <Col className='mb-2' sm={6} lg={4}>
-      <Card style={{ minWidth: '18rem',minHeight:'250px' }}>
+      <Card style={{ width: '18rem',height:'250px' }}>
       <Card.Body>
         <Card.Title>⚡ Virtual DOM for Lightning Performance</Card.Title>
         <Card.Text>
@@ -59,7 +59,7 @@ Data flows in one direction, <br /> <span>from parent to child components,
    </Row>
     <Row className='mt-5 mb-5' >
     <Col className='mb-2' sm={6} lg={4}>
-      <Card style={{ minWidth: '18rem' }}>
+      <Card style={{ width: '18rem' }}>
       <Card.Body>
         <Card.Title>🧠Declarative UI</Card.Title>
         <Card.Text>
@@ -74,7 +74,7 @@ Data flows in one direction, <br /> <span>from parent to child components,
 
     </Col>
      <Col className='mb-2' sm={6} lg={4}>
-      <Card style={{ minWidth: '18rem',minHeight:'250px' }}>
+      <Card style={{ width: '18rem',height:'250px' }}>
       <Card.Body>
         <Card.Title>🌐Cross-Platform Development</Card.Title>
         <Card.Text>
@@ -89,7 +89,7 @@ Data flows in one direction, <br /> <span>from parent to child components,
 
     </Col>
     <Col className='mb-2' sm={6} lg={4}>
-      <Card style={{ width: '18rem',minHeight:'250px' }}>
+      <Card style={{ width: '18rem',height:'250px' }}>
       <Card.Body>
         <Card.Title>🚀 SEO & Developer Friendly</Card.Title>
         <Card.Text>

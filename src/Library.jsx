@@ -14,6 +14,9 @@ const Library = () => {
   }
   return (
     <>
+    <div style={{height:'100vh'}} className="library">
+
+    
      <h1 style={{marginTop:'60px'}}> React’s Core Libraries & Tools
      </h1>
      <p >Everything you need to build efficient, modern web interfaces.</p>
@@ -119,7 +122,7 @@ This makes React lightweight, flexible, and easy to integrate with any setup.</p
   </Row>
 
 </Container>
-
+</div>
     </>
   )
 }
